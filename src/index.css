@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #E2E2E2;
 }
 
 code {
@@ -20,4 +21,8 @@ form {
 label {
   margin: 0;
   padding: 0;
+}
+
+html, body, #root {
+  background-color: #fcfcfc;
 }

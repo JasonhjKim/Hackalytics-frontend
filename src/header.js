@@ -6,7 +6,7 @@ export default class Header extends Component {
     render () {
         return (
             <StyledHeader>
-                <Title>Company Title</Title>
+                <Title>Clinical Model Tuner</Title>
             </StyledHeader>
         )
     }
@@ -14,15 +14,17 @@ export default class Header extends Component {
  
 
 const StyledHeader = styled(Row)`
-    height: 75px;
+    height: 65px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: center;
     margin: 0;
 `
 
 const Title = styled.div`
     font-size: 2em;
     font-weight: bold;
-    
+    color: #2B2B2B;
+    font-family: 'Roboto Slab', serif;
 `
